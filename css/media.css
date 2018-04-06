@@ -1,0 +1,468 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { ... }
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+.nav ul {
+    margin-left: -63px;
+}
+.nav ul li a{
+    font-size: 15px;
+    padding: 0 9px;
+}
+
+#cloud{
+
+}
+
+.big_cloud img {
+    top: -92px;
+}
+
+    #discovery{
+
+    }
+
+ .discover_btn{
+
+       margin-bottom: 20px;
+}
+
+.box{
+        width: 460px;
+    height: 203px;
+}
+
+
+    #desiration{
+        background-size: 100% 955px;
+        
+    }
+
+.box_circle{
+        margin-left: 55px;
+}
+
+    #featured_course{
+        background-size: 100% 100%;
+       
+    }
+.feature_curse_time{
+    height: 28px;
+    width: 191px;
+}
+
+.two{
+    width: 191px;
+}
+
+.alt_learning_box{
+    width: 191px;
+        min-height: 442px;
+
+}
+
+
+    .margin_btm{
+        margin-bottom: 20px;
+
+
+    }
+    #memorible_moment{
+        background-size: 100% 100%;
+        
+    }
+
+.memorible_menu{
+    padding: 0 6px;
+
+}
+
+.memorible_first_box{
+    width: 211px;
+    background-size: 87% 85%;
+}
+
+.memorible_box_others{
+    width: 211px;
+
+}
+
+    #stand_by{
+        background-size: 100% 100%;
+
+    }
+.linda_box{
+    width: 223px;
+    min-height: 258px;
+    margin-top: 24px;
+}
+
+
+
+
+    #we_did{
+        background-size: 100% 100%;
+
+    }
+
+    .cloud_opposite {
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    top: -80px;
+    }
+
+    .last_P_event_time {
+    margin-bottom: 78px;
+
+    }
+    
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+.nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0px 14px;
+    transition: .5s;
+    font-family: 'Dosis', sans-serif;
+}
+
+.big_cloud img {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    margin-left: -15px;
+    top: -116px;
+}
+
+.right_side_pixel {
+    min-height: 250px;
+    margin-bottom: 30px;
+}
+
+
+
+
+    #desiration{
+        background-size: 100% 955px;
+        
+    }
+
+.box_circle {
+    width: 101px;
+    height: 104px;
+    background-color: #A9A9A9;
+    border-radius: 50%;
+    background-image: url(../images/circle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+
+
+.view_more{
+    margin-left: 32%;
+}
+
+
+
+    #featured_course{
+        background-size: 100% 100%;
+       
+    }
+    .margin_btm{
+        margin-bottom: 20px;
+
+
+    }
+
+.alt_learning_box{
+    margin-bottom: 52px;
+        margin-top: 10px;
+}
+
+.featured_curse_btn{
+        margin-top: 4px;
+}
+
+    #memorible_moment{
+        background-size: 100% 100%;
+        
+    }
+    #stand_by{
+        background-size: 100% 100%;
+
+    }
+    #we_did{
+        background-size: 100% 100%;
+
+    }
+
+    .cloud_opposite {
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    top: -80px;
+    }
+
+    .last_P_event_time {
+    margin-bottom: 78px;
+    
+    }
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+     .nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 0px 10px;
+    transition: .5s;
+    font-family: 'Dosis', sans-serif;
+}
+
+     .last_cloud {
+    margin-left: -52px;
+}
+
+
+     .big_cloud img {
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    margin-left: -15px;
+    top: -151px;
+    }
+
+    .box {
+    width: 448px;
+    min-height: 240px;
+    background-color: #A9A9A9;
+    border-radius: 15px;
+    color: #707070;
+    position: relative;
+    box-shadow: 0 3px 7px 2px;
+    transition: .3s;
+    }
+
+
+
+
+     #desiration{
+        background-size: 100% 955px;
+        
+    }
+
+    .circle h5 {
+    text-align: center;
+    margin-top: 13px;
+    margin-left: 80px;
+}
+
+#featured_course{
+        background-size: 100% 100%;
+       
+    }
+
+        .alt_learning_box {
+        width: 206px;
+        min-height: 400px;
+        box-sizing: border-box;
+        background-color: #FFFFFF;
+        border-radius: 23px;
+        transition: .5s;
+        box-shadow: 0px 8px 9px 4px darkgrey;
+    }
+
+    .feature_curse_time {
+        height: 35px;
+        width: 206px;
+    }
+    .two {
+        min-height: 176px;
+        width: 206px;
+        background-color: #DDDDDD;
+        position: relative;
+    }
+    .three {
+        text-align: center;
+        padding-top: 17px;
+        width: 206px;
+    }
+
+    .margin_btm{
+        margin-bottom: 20px;
+
+
+    }
+
+#memorible_moment{
+        background-size: 100% 100%;
+        
+}
+
+    .memorible_menu {
+    padding: 0 4px;
+    color: white;
+    font-weight: bold;
+}
+
+    .memorible_first_box {
+    width: 192px;
+    min-height: 200px;
+    background-image: url(../images/memorible_box.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    transition: .3s;
+    box-shadow: 0px 5px 7px 2px grey;
+    background-size: 162px 173px;
+}
+
+    .memorible_box_others {
+    width: 195px;
+    min-height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    transition: .3s;
+    box-shadow: 0px 5px 7px 2px grey;
+}
+
+
+
+#stand_by{
+        background-size: 100% 100%;
+
+    }
+
+    .linda_box {
+    width: 195px;
+    min-height: 281px;
+    background-color: #A9A9A9;
+    position: absolute;
+    border-radius: 17px;
+    box-shadow: 0 3px 12px 3px black;
+    transition: .3s;
+}
+
+
+
+
+    #we_did{
+        background-size: 100% 100%;
+
+    }
+
+    .cloud_opposite {
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 84px;
+}   
+
+
+#EventTimeline_Recent{
+
+    }
+
+    .aug_details img {
+    padding-top: 100px;
+    width: 60%;
+    height: 143px;
+}
+
+    .recent_news_box {
+    width: 222px;
+    min-height: 200px;
+    background-image: url(../images/recent_news_box1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 212px 174px;
+    position: relative;
+}
+
+    .recent_news_box2 {
+    width: 229px;
+    min-height: 200px;
+    background-image: url(../images/recent_news_box2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 230px 200px;
+    position: relative;
+}
+
+
+
+    .last_P_event_time {
+    margin-bottom: 78px;
+    
+    }
+
+    .cloud_opposite {
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 20px;
+}
+
+    .instagram_box {
+    width: 55px;
+    min-height: 65px;
+    background-color: #DDDDDD;
+    margin-top: 10px;
+    transition: .5s;
+    box-shadow: 0 2px 6px 1px;
+}
+
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    #desiration{
+        background-size: 100% 955px;
+        
+    }
+    #featured_course{
+        background-size: 100% 100%;
+       
+    }
+    .margin_btm{
+        margin-bottom: 20px;
+
+
+    }
+    #memorible_moment{
+        background-size: 100% 100%;
+        
+    }
+    #stand_by{
+        background-size: 100% 100%;
+
+    }
+    #we_did{
+        background-size: 100% 100%;
+
+    }
+
+
+    .last_P_event_time {
+    margin-bottom: 78px;
+    
+    }
+
+}
